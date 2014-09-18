@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Cloud and Big Data, What the hell is that?</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+	<nav>
+		<img style="width:250px;margin-left:50px;margin-top:30px;" src="img/isen.png">
+	</nav>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Cloud and Big Data</h1>
+					<h3>What the hell is that??</h3>
+					<p>
+						<small>Created by <a href="http://pierrezemb.fr">Pierre Zemb</a> / <a href="http://twitter.com/pierrez">@PierreZ</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>+Me</h2>
+					<div style="text-align=center;">
+					<img class="image" src="img/myself.png" style="width: 300px; height: auto; max-height: none; max-width: none; border: none;-moz-box-shadow:none;-webkit-box-shadow:none;background:none;">
+					</div>
+					<p>
+						<ul>
+							<li>French Engineer student at ISEN Brest</li>
+							<li>CIR student</li>
+							<li>Part-time internship at Crédit Mutuel Arkéa</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>Just to clarify</h2>
+					<p>
+						I'm just a student!
+					</p>
+					<img src="img/boba.gif" style="-moz-box-shadow:none;-webkit-box-shadow:none;">
+				</section>
+
+				<section>
+					<h2>Why this presentation?</h2>
+					<p>
+						<ul>
+							<li>I wanted to have a good point of view about Big data and cloud</li>
+							<li>they are unknown at ISEN</li>
+							<li>It's something big obviously</li>
+						</ul>
+					</p>
+				</section>
+
+
+				<section>
+					<section>
+						<h2>Cloud? Like in the sky?</h2>
+						<img src="img/cloud-computing.jpg" width="500px;" >
+					</section>
+					<section>
+						<h2>3 types of cloud</h2>
+						<ul>
+							<li>
+								Infrastructure as a Service
+							</li>
+							<li>Platform as a Service</li>
+							<li>Software as a Service</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Explanations</h2>
+						<img src="img/cloud.png" height="400" >
+					</section>
+					<section>
+						<h2>Examples</h2>
+						<ul>
+							<li>IaaS(Infrastructure as a service): <br/>Amazon EC2, Windows Azure, Rackspace</li><br/>
+							<li>PaaS(Platform as a service):  <br/>AWS Elastic Beanstalk, Heroku, Force.com, Google App Engine</li><br/>
+							<li>Saas(Software as a service): <br/> Google Apps, Microsoft Office 365</li><br/>
+						</ul>
+						<p>Hadoop doesn't belong to this !</p>
+					</section>
+					<section>
+						<h2>4 Reasons Why Development in the Cloud Makes Sense</h2>
+						<ul>
+							<li>SaaS hosted solution are cool</li><br/>
+							<li>Great for distributed teams</li><br/>
+							<li>Effortlessly scalable</li><br/>
+						</ul>
+					</section>
+					<section>
+						<h2>Overview of Openstack 1/2</h2>
+							<img src="img/openstack.png" height="450">
+
+						</section>
+					<section>
+						<h2>Overview of Openstack 2/2</h2>
+							<img src="img/havana.jpg" height="auto" width="auto">
+
+						</section>
+					<section>
+						<h2>Overview of Juju 1/2</h2>
+						<iframe width="560" height="315" src="//www.youtube.com/embed/Lt9-a6pDxsA?list=UUJ65UG_WgFa_O_odbiBWZoA" frameborder="0" allowfullscreen></iframe>
+					</section>
+					<section>
+						<h2>Overview of Juju 2/2</h2>
+							<img src="img/juju.jpg" height="450">
+
+						</section>
+				</section>
+
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>What's Big data?</h2>
+							<img width="400" src="img/meme-bigdata.jpg" alt="meme">
+					</section>
+
+					<section>
+						<h2>Size does matter 1/2</h2>
+						<ul>
+							<li>Facebook owns 300 petabytes of data and generates 500 terabytes of information per day</li><br/>
+							<li>The experiments in the Large Hadron Collider produce about 15 petabytes of data per year</li><br/>
+							<li>Steam delivers over 30 petabytes of content monthly</li><br/>
+						</ul>
+					</section>
+					<section>
+						<h2>Size does matter 2/2</h2>
+						<ul>
+							<li>At its 2012 closure of file storage services, Megaupload held ~28 petabytes of user uploaded data</li><br/>
+							<li>The 2009 movie Avatar is reported to have taken over 1 petabyte of local storage at Weta Digital for the rendering of the 3D CGI effects</li><br/>
+							<li> Google processed about 24 petabytes of data per day in 2009</li><br/>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Why do we need to make it big? 1/2</h2>
+						<p>90% of the data in the world today has been created in the last two years alone</p>
+						<img src="img/big-data.gif">
+					</section>
+
+					<section>
+						<h2>Why do we need to make it big? 2/2</h2>
+						<img src="img/60.png" height="400">
+					</section>
+
+					<section>
+						<h2>Big Data = 3 V's</h2>
+						<ul>
+						<li>Volume</li><br/>
+						<li>Velocity</li><br/>
+						<li>Variety</li><br/>
+						</ul>
+
+						
+					</section>
+					<section>
+						<h2>What's the objective?</h2>
+						<p>
+							Bring together and analyze large pools of data to discern patterns and make better decisions, which are impossible with regular technologies
+						</p>
+					</section>
+					<section>
+					<h2>The pros</h2>
+
+
+					<p>
+						<ul>
+							<li>scalability</li><br/>
+							<li>open source</li><br/>
+							<li>fail-safe system</li><br/>
+						</ul>
+					</p>
+				</section>
+
+					<section>
+					<h2>The cons</h2>
+					<img width="50%" src="img/nsa-meme.jpg" alt="meme">
+				</section>
+				<section>
+					<h2>Big data is already here</h2>
+					<img src="img/watchdog.jpg" height="300"><br/>
+					<a href="http://wearedata.watchdogs.com/">We Are Data</a>
+				</section>
+				</section> <!--/section Big data-->
+
+				<section>
+					<section>
+						<h2>Hadoop</h2>
+							<img src="img/hadoop.png" style="width: 600px; height: auto; max-height: none; max-width: none;border: none;-moz-box-shadow:none;-webkit-box-shadow:none;background:none">
+					</section>
+					<section>
+						<h2>Nice elephant! But what is it?</h2>
+						<br/>
+						<p>
+						Quote from Wikipedia:
+						</p>
+						<br/>
+						<blockquote>
+							Apache Hadoop is an open-source software framework for storage and large scale processing of data-sets on clusters of commodity hardware created by Yahoo.
+						</blockquote>
+					</section>
+					<section>
+						<h2>Where Is It From?</h2>
+						<p>
+						Apache Hadoop's MapReduce and HDFS components originally derived respectively from:
+						</p><br/>
+						<ul>
+							<li>
+						 Google's MapReduce paper
+							</li>
+<br/>							<li>Google File System (GFS) papers</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>The power of Hadoop</h2>
+						<ul>
+							<li>Hadoop Distributed File System (HDFS) - a distributed file-system that stores data on commodity machines</li><br/>
+							<li>Hadoop MapReduce - a programming model for large scale data processing.</li>
+						</ul>
+						
+					</section>
+					<section>
+						<h2>Some key words...</h2>
+						<ul>
+							<li>Job Tracker</li><br/>
+							<li>Task Tracker</li><br/>
+							<li>Name Node</li><br/>
+							<li>Secondary node</li><br/>
+							<li>Data Node</li><br/>
+						</ul>
+											</section>
+											<section>
+											<h2>What about an recap ?</h2>
+						<img src="img/hadoop-sumup.jpg" style="width: 500px;">
+
+					</section>
+				</section> <!--/section general-->
+
+				<section>
+					<section>
+						<h2>Hadoop Distributed File System</h2>
+							<img src="img/cat-tank.gif" style="width: 600px; height: auto; max-height: none; max-width: none; border: 0;">
+					</section>
+					<section>
+						<h2>HDFS is good for:</h2>
+						<ul>
+							<li>Very large files</li>
+							<li>Write once, read many-times</li>
+							<li>Any hardware</li>
+							<br/>
+						</ul>
+
+						<h2>and not good for:</h2>
+						<ul>
+							<li>Low-latency access</li>
+							<li>Lots of small files</li>
+							<li>random writing</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>How does it work?</h2>
+						<h3>(Sorry guys, it's in French)</h3>
+						<img src="img/hdfs.jpg" style="width: 500px;">
+					</section>
+				</section> <!--/section HDFS-->
+
+
+				<section>
+					<section>
+						<h2>Map/Reduce</h2>
+							<img src="img/scumbag.gif" style="border: 0;">
+					</section>
+					<section>
+						<h2>3 phases</h2>
+						<ul>
+							<li>Map phase</li><br/>
+							<li>Shuffle phase</li><br/>
+							<li>Reduce phase</li><br/>
+						</ul>
+					</section>
+					<section>
+						<h2>Why is it so good?</h2><br/>
+						<p>Data locality optimization</p><br/>
+						</section>
+					<section>
+						<img src="img/mapreduce2.gif">
+					</section>
+					<section>
+						<h2>Example</h2>
+						<img src="img/mapreduceword.png" >
+					</section>
+				</section> <!--/section Mapreduce-->
+				<section>
+					<h2>That's all!</h2><br/>
+					<h3>Questions?</h3><br/>
+					<br/>
+				</section>
+				
+
+			</div>
+		</div>	
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
